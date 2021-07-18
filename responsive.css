@@ -1,0 +1,86 @@
+@media screen and (max-width: 700px) {
+
+     /* Outdoor */ 
+
+     .outdoor {
+        margin-bottom: 90px;
+    }
+
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #18063C;
+        line-height: 50px;
+        padding: 0 100px 0 150px;
+    }
+
+    .photo-promo {
+        height: 0;
+    }
+
+    .outdoor-text {
+        margin: 0;
+    }
+
+    section {
+        background-color: #10C6FF;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: space-around; 
+    }
+
+    .outdoor-text {
+        width: 400px;
+        height: 400px;
+        margin: 50px 50px;
+    }
+
+    .outdoor-text {
+        width: 400px;
+        height: 400px;
+        margin: 50px 50px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* Formulário */ 
+
+    .produtos {
+        margin-top: 400px;
+        background-color: white;
+    }
+
+    .form-container {
+        margin-top: 500px;
+        height: 750px;
+    }
+
+    .image-form {
+        width: 0;
+        height: 0;
+    }
+
+    h2 {
+        margin-top: 90px;
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .sobre {
+        flex-direction: column;
+        margin-left: 0;
+        margin-bottom: 32px;
+        margin-top: 30px;
+    }
+
+    /* Footer */
+
+    footer {
+        margin-top: 100px;
+    }
+  
+}

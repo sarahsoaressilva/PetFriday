@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <script src="script.js"></script>
+    <title> PetFriday </title>
+</head>
+<body>
+    <nav>
+        <label class="logo"> PetLove </label>
+        <ul>
+            <li> <a href="#sobre-nos"> Sobre nós </a> </li>
+            <li> <a href="#produtos"> Promoções </a> </li>
+            <li> <a href="#contatos"> Contato </a> </li>
+        </ul>
+    </nav>
+
+    <section class="outdoor">
+        <div class="outdoor-text">
+            <h1> Deixe seu Au-migo feliz com novos presentes! </h1>
+            <p> Semana de Promoções Black Friday. Aqui na PetLove você
+                encontra tudo para seu melhor amigo!
+            </p>
+            <a href="#">
+                <button class="btn-padrao" href="#produtos"> <a href="#produtos"> Veja as Promoções </a> </button>
+            </a>
+        </div>
+        <img src="assets/dogpotter.jpg" class="photo-promo" alt="Cachorro Pug Preto, usando óculos redondo, vestindo um cachecol bege" />
+    </section>
+
+
+    <section class="sobre" id='sobre-nos'>
+        <div class="card bag">
+            <div class="icon">
+                <img src="assets/icons/shopping-bag.png" alt="Imagem de uma sacola de compras laranja">
+            </div>
+            
+            <h3> Fique por dentro das novidades! </h3>
+            <span> Cadastre seu email para ficar ligado nas nossas promoções e novos produtos. </span>
+            <button class="btn-padrao"> <a href="#formulario"> Cadastrar </a> </button>
+        </div>
+
+        <div class="card donation">
+            <div class="icon">
+                <img src="assets/icons/pet-house.png" alt="Desenho de um gato e cachorro dentro de uma casinha azul">
+            </div>
+
+            <h3> Uma parte do dinheiro é doado para instituições </h3>
+            <span> Além de você estar presenteando seu pet, você também está ajudando os outros! </span>
+            <button class="btn-padrao"> <a href="#formulario"> Cadastrar </a>  </button>
+        </div>
+    </section>
+
+    <h2> Produtos mais vendidos </h2>
+    <section class="produtos" id="produtos">
+        <div class="produto-card"> 
+            <img src="assets/abelinha-voadora.jpg" alt="Foto de um passarinho vestido de abelha" class="produto-photo" />
+            <h3 class="nome-produto"> Roupa  VoAbelinha </h3>
+            <h3 class="preço-produto"> R$ 20,00 </p>
+            <button class="btn-compra">  <a href="#formulario"> Receber Cupom  </a> </button>
+        </div>
+
+        <div class="produto-card"> 
+            <img src="assets/shark-meow.jpg" alt="Foto de um passarinho vestido de abelha" class="produto-photo" />
+            <h3 class="nome-produto"> Roupa Tubarão SharkMeow</h3>
+            <h3 class="preço-produto"> R$ 25,00 </p>
+            <button class="btn-compra"> <a href="#formulario"> Receber Cupom  </a> </button>
+        </div>
+
+        <div class="produto-card"> 
+            <img src="assets/mewdana.jpg" alt="Foto de um passarinho vestido de abelha" class="produto-photo" />
+            <h3 class="nome-produto"> Bandana Meowdana </h3>
+            <h3 class="preço-produto"> R$ 27,90 </p>
+            <button class="btn-compra"> <a href="#formulario"> Receber Cupom  </a> </button>
+        </div>
+    </section>
+
+    <section class="form-container" id='formulario'>
+        <img src="assets/newslatter.jpg" alt="" class="image-form" />
+
+        <div class="form">
+            <h1> Preencha o cadastro para ter acesso às promoções</h1>
+            <p> Ao preencher, enviamos um cupom para seu email com acesso à todas as nossas promoções. </p>
+            <p> Além de te mantermos alerta sobre promoções futuras.</p>
+            <p> Ei, não se preocupe com spam! Você pode se desinscrever a qualquer hora!</p>
+
+            <form>
+                <fieldset class="field">
+                    <div class='grupo'>
+                        <label for='nome'> Nome </label> <br>
+                        <input type="text" name="nome" class='input' placeholder='Meowdalena' id='name' required /> 
+                    </div>
+                    
+                    <div class='grupo'>
+                        <label for='email'> Email </label> <br>
+                        <input type="email" name="email" class='input' placeholder='meow@gmail.com' id='email' required />
+                    </div>
+
+                    <input type='submit' class='btn-padrao' />
+                </fieldset>
+            </form>
+        </div>
+        
+    </section>
+
+
+
+    <footer id='contatos'>
+        <h3 class = "footer-title"> Formas de contato: </h3>
+        <p> contatopetlove@gmail.com </p>
+        <p> Atendimento ao cliente: Seg à Sex das 9h até às 20h. Sáb das 9h até às 17h </p>
+        <p class='pfooter'> Feito por <a href ='https://github.com/sarahsoaressilva' target='_blank'> Sarah Soares </a> </p>
+    </footer>
+
+</body>
+</html>
