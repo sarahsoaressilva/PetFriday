@@ -2,8 +2,7 @@
 
 ## Resumo do Projeto:
 
-**Objetivo:** o objetivo deste projeto foi criar uma Landing Page de Black Friday. Eu escolhi como tema uma loja de artigos para Pet. 
-<br> Este projeto foi um desafio do **Programa de Treinamento Fullstack da Hiring Coders** de 2021, o qual participei.
+**Objetivo:** o objetivo deste projeto foi criar uma Landing Page de Black Friday. Eu escolhi como tema uma loja de artigos para Pet. Este projeto foi um desafio do **Programa de Treinamento Fullstack da Hiring Coders** de 2021, o qual participei.
 
 <b> As tecnologias usadas foram: </b> 
 - HTML;
