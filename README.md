@@ -15,7 +15,7 @@ Foi criado um arquivo css específico para a responsividade. <br>
 
 ## Imagens do Projeto
  
-<img src="https://github.com/sarahsoaressilva/PetFriday/blob/main/img_demostrativas/heading.PNG?raw=true" width="1000" height="600">
-<img src="https://github.com/sarahsoaressilva/PetFriday/blob/main/img_demostrativas/middle.PNG?raw=true" width="1000" height="600">
-<img src="https://github.com/sarahsoaressilva/PetFriday/blob/main/img_demostrativas/products.PNG?raw=true" width="1000" height="600">
-<img src="https://github.com/sarahsoaressilva/PetFriday/blob/main/img_demostrativas/end.PNG?raw=true" width="1000" height="600">
+<img src="https://github.com/sarahsoaressilva/PetFriday/blob/main/img_demostrativas/heading.PNG?raw=true" width="900" height="500">
+<img src="https://github.com/sarahsoaressilva/PetFriday/blob/main/img_demostrativas/middle.PNG?raw=true" width="900" height="500">
+<img src="https://github.com/sarahsoaressilva/PetFriday/blob/main/img_demostrativas/products.PNG?raw=true" width="900" height="500">
+<img src="https://github.com/sarahsoaressilva/PetFriday/blob/main/img_demostrativas/end.PNG?raw=true" width="900" height="500">
